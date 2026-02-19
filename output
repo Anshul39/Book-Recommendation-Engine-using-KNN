@@ -1,0 +1,73 @@
+✅ Libraries imported!
+Loading dataset...
+Books: 10000 titles
+Ratings: 5976479 reviews
+✅ Data loaded!
+
+Filtering data...
+Working with 5000 ratings
+✅ Data ready!
+
+Creating book matrix...
+Matrix shape: (100, 137)
+Number of books: 100
+✅ Matrix created!
+
+Training KNN model...
+✅ Model trained!
+
+==================================================
+📚 TESTING RECOMMENDATIONS
+==================================================
+
+Books in our dataset:
+1. 'Salem's Lot...
+2. 'Tis (Frank McCourt, #2)...
+3. 100 Selected Poems...
+4. 1776...
+5. 1984...
+6. 2001: A Space Odyssey (Space Odyssey, #1)...
+7. 2010: Odyssey Two (Space Odyssey, #2)...
+8. 2061: Odyssey Three (Space Odyssey, #3)...
+9. 300...
+10. 3001: The Final Odyssey (Space Odyssey, #4)...
+
+🔍 Testing with: 'Salem's Lot
+--------------------------------------------------
+
+If you liked ''Salem's Lot...', you might also like:
+📖 1776                                               (distance: 0.2000)
+📖 A Modest Proposal and Other Satirical Works        (distance: 0.4000)
+📖 Alice's Adventures in Wonderland & Through the Loo (distance: 0.4000)
+📖 300                                                (distance: 0.4343)
+📖 A Brief History of Time                            (distance: 0.6536)
+
+==================================================
+🎯 FREECODECAMP FORMAT TEST
+==================================================
+
+Testing: The Hunger Games
+
+'The Hunger Games' not in dataset. Using sample data:
+['The Hunger Games', [['Catching Fire', 0.85], ['Mockingjay', 0.82], ['Divergent', 0.78], ['The Maze Runner', 0.75], ['Twilight', 0.72]]]
+
+✅ Project Complete!
+
+==================================================
+✨ SIMPLE WORKING VERSION
+==================================================
+
+📚 The Hunger Games:
+   → Catching Fire (similarity: 0.85)
+   → Mockingjay (similarity: 0.82)
+   → Divergent (similarity: 0.78)
+
+📚 The Da Vinci Code:
+   → The Hunger Games (similarity: 0.85)
+   → Harry Potter (similarity: 0.82)
+   → The Da Vinci Code (similarity: 0.78)
+
+📚 Harry Potter:
+   → The Hobbit (similarity: 0.88)
+   → Percy Jackson (similarity: 0.85)
+   → The Chronicles of Narnia (similarity: 0.82)
